@@ -1,201 +1,184 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Braga Despachante LTDA — Soluções rápidas para seu veículo</title>
-  <meta name="description" content="Braga Despachante: licenciamento, transferência, 2ª via de CRV, regularização de documentação e serviços de despachante veicular com agilidade e confiabilidade." />
-  <meta name="theme-color" content="#0b5a8a" />
-  <style>
-    :root{--accent:#0b5a8a;--accent-2:#06a77d;--muted:#666;--bg:#f7fbfd}
-    *{box-sizing:border-box}
-    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.5;margin:0;color:#0b2130;background:var(--bg)}
-    .container{max-width:1100px;margin:0 auto;padding:20px}
-    header{background:linear-gradient(90deg,var(--accent),#0d7fb1);color:#fff;padding:28px 0}
-    .brand{display:flex;align-items:center;gap:16px}
-    .logo{width:72px;height:72px;border-radius:12px;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.2rem}
-    h1{margin:0;font-size:1.6rem}
-    p.lead{margin:8px 0 0;font-size:1rem}
-    .hero{display:flex;gap:28px;align-items:center;flex-wrap:wrap;padding:22px 0}
-    .card{background:#fff;border-radius:12px;padding:18px;box-shadow:0 8px 24px rgba(12,34,40,.06)}
-    .btn{background:var(--accent);color:#fff;padding:12px 16px;border-radius:10px;text-decoration:none;display:inline-block;font-weight:700}
-    .btn.alt{background:transparent;border:2px solid var(--accent);color:var(--accent);}
-    .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
-    @media(min-width:880px){.grid{grid-template-columns:1fr 360px}.hero{flex-wrap:nowrap}}
-    ul.clean{padding:0;margin:0;list-style:none}
-    .feature{display:flex;gap:12px;align-items:flex-start;margin-top:10px}
-    .services{display:grid;grid-template-columns:1fr;gap:12px}
-    @media(min-width:600px){.services{grid-template-columns:1fr 1fr}}
-    footer{padding:28px 0;text-align:center;color:var(--muted);font-size:0.9rem}
-    form input, form textarea, form select{width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #e6eef2;background:#fff}
-    .small{font-size:0.88rem;color:var(--muted)}
-    .whatsapp{display:flex;gap:10px;align-items:center}
-    .badge{background:#eef8fb;padding:6px 10px;border-radius:999px;color:var(--accent)}
-    .meta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
-  </style>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="brand">
-        <div class="logo">BD</div>
-        <div>
-          <h1>Braga Despachante LTDA</h1>
-          <p class="small">Rapidez, segurança e atendimento personalizado em documentação veicular</p>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="hero">
-      <div style="flex:1">
-        <div class="card">
-          <p class="lead">Soluções completas para seu veículo: licenciamento, transferência, 2ª via do CRV, multas, regularização de CNH e mais. Atendimento presencial e agendamento remoto.</p>
-
-          <div style="margin-top:14px" class="meta-row">
-            <div class="badge">Atendimento rápido</div>
-            <div class="badge">Especialistas em Detran</div>
-            <div class="badge">Documentação 100% segura</div>
-          </div>
-
-          <div style="margin-top:16px" class="whatsapp">
-            <!-- Substitua o número do WhatsApp no href (tel:+55...) -->
-            <a class="btn" href="tel:+55XXXXXXXXXXX">Ligar agora</a>
-            <a class="btn alt" href="https://wa.me/55XXXXXXXXXXX" target="_blank" rel="noopener">Fale no WhatsApp</a>
-          </div>
-
-          <div style="margin-top:16px" class="small">Obs.: substitua os links de telefone/WhatsApp pelo número real (formato tel:+55<cod><numero>) para ativar chamadas e click-to-chat.</div>
-        </div>
-      </div>
-
-      <aside style="width:360px">
-        <div class="card">
-          <strong>Agende seu atendimento</strong>
-          <form action="#" onsubmit="alert('Atualize o atributo action do formulário para conectar com seu e‑mail/CRM ou serviço de automação.');return false;">
-            <label class="small">Nome</label>
-            <input type="text" placeholder="Seu nome completo" required />
-            <label class="small">Telefone ou WhatsApp</label>
-            <input type="tel" placeholder="(XX) 9XXXX-XXXX" required />
-            <label class="small">Serviço desejado</label>
-            <select required>
-              <option value="">Selecione</option>
-              <option>Licenciamento anual</option>
-              <option>Transferência de propriedade</option>
-              <option>2ª via do CRV</option>
-              <option>Regularização de multas</option>
-              <option>Atendimento CNH</option>
-            </select>
-            <label class="small">Mensagem</label>
-            <textarea rows="3" placeholder="Ex.: Agendar retirada de documentos" required></textarea>
-            <button class="btn" type="submit">Enviar solicitação</button>
-          </form>
-
-          <div style="margin-top:12px" class="small">Ou envie mensagem via WhatsApp: <a href="https://wa.me/55XXXXXXXXXXX">Clique aqui</a></div>
-        </div>
-
-        <div style="margin-top:12px" class="card">
-          <strong>Horário de atendimento</strong>
-          <div class="small" style="margin-top:8px">Seg–Sex: 08:00 — 18:00<br>Sáb: 08:00 — 12:00<br>Dom: Fechado</div>
-          <div style="margin-top:8px" class="small">Endereço: Informe quando disponível</div>
-        </div>
-      </aside>
-    </section>
-
-    <section class="grid">
-      <div>
-        <h2>Serviços</h2>
-        <div class="services">
-          <div class="card">
-            <h4>Licenciamento</h4>
-            <p class="small">Renovamos o licenciamento anual do seu veículo sem complicação — cuidamos do pagamento e da emissão do documento.</p>
-          </div>
-          <div class="card">
-            <h4>Transferência de veículo</h4>
-            <p class="small">Transferência de propriedade rápida e segura, com conferência de documentos e acompanhamento até a baixa do gravame.</p>
-          </div>
-          <div class="card">
-            <h4>2ª via do CRV</h4>
-            <p class="small">Emitimos a segunda via do Certificado de Registro de Veículo com menor burocracia possível.</p>
-          </div>
-          <div class="card">
-            <h4>Multas e regularização</h4>
-            <p class="small">Acompanhamos recursos e regularização de pontos, descontos e parcelamentos quando aplicáveis.</p>
-          </div>
-        </div>
-
-        <h3 style="margin-top:18px">Por que escolher a Braga Despachante?</h3>
-        <ul class="clean">
-          <li class="feature"><div>✅</div><div><strong>Atendimento especializado</strong><div class="small">Equipe com experiência junto aos órgãos de trânsito.</div></div></li>
-          <li class="feature"><div>✅</div><div><strong>Transparência</strong><div class="small">Orçamento claro e sem surpresas.</div></div></li>
-          <li class="feature"><div>✅</div><div><strong>Entrega ágil</strong><div class="small">Processos otimizados para reduzir prazos.</div></div></li>
-        </ul>
-
-        <h3 style="margin-top:18px">Depoimentos</h3>
-        <blockquote class="small">"Resolveram minha transferência em poucos dias — super recomendo!" — Cliente satisfeito</blockquote>
-
-        <h3 style="margin-top:18px">Perguntas frequentes</h3>
-        <div class="card" style="margin-top:8px">
-          <strong>Quais documentos eu preciso levar?</strong>
-          <p class="small">Documento do veículo, CRV/CRLV, documentos pessoais do comprador e vendedor (RG/CPF), comprovante de endereço atualizado. Entramos em contato para lista completa conforme o serviço.</p>
-        </div>
-      </div>
-
-      <aside>
-        <div class="card">
-          <h4>Contato rápido</h4>
-          <div class="small" style="margin-top:8px">E-mail: contato@bragadespachante.com (substitua por e‑mail real)</div>
-          <div class="small" style="margin-top:6px">Telefone: (XX) 9XXXX-XXXX</div>
-          <div style="margin-top:10px">
-            <a class="btn" href="mailto:contato@bragadespachante.com">Enviar e‑mail</a>
-          </div>
-        </div>
-
-        <div class="card" style="margin-top:12px">
-          <h4>Localização</h4>
-          <p class="small">Mapa: insira a URL do Google Maps ou coordenadas para exibir aqui.</p>
-          <!-- Espaço para inserir iframe do Google Maps -->
-          <div style="margin-top:8px;background:#eef6f8;border-radius:8px;padding:12px;text-align:center;color:var(--muted)">Mapa disponível após informar endereço</div>
-        </div>
-      </aside>
-    </section>
-
-    <section style="margin-top:18px">
-      <div class="card">
-        <h4>Informações legais</h4>
-        <p class="small">Braga Despachante LTDA — Empresa especializada em serviços de documentação veicular. Atualize CNPJ, Inscrição Estadual e demais dados legais conforme sua necessidade antes da publicação.</p>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
-        © Braga Despachante LTDA — Todos os direitos reservados
-      </div>
-    </footer>
-  </main>
-
-  <!-- JSON-LD LocalBusiness: substitua valores entre <> antes de publicar -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Mundo Arts — Materiais para Artesanato</title>
+  <meta name="description" content="Mundo Arts Comércio de Materiais para Artesanato LTDA — loja de materiais para artesãos em Blumenau (SC). Produtos, contato e informações institucionais." />
+  <meta name="theme-color" content="#D9915A"/>
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Braga Despachante LTDA",
-    "description": "Serviços de despachante veicular: licenciamento, transferência, 2ª via de CRV, regularização de multas e CNH.",
-    "telephone": "+55XXXXXXXXXXX",
-    "email": "contato@bragadespachante.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "<informe o endereço>",
-      "addressLocality": "<cidade>",
-      "addressRegion": "<UF>",
-      "postalCode": "<CEP>"
-    }
+    "@context":"https://schema.org",
+    "@type":"Store",
+    "name":"Mundo Arts",
+    "legalName":"Mundo Arts Comércio de Materiais Para Artesanato LTDA",
+    "telephone":"+55 48 99100-0000",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Rua Vinte e Cinco de Julho, 118, Térreo",
+      "addressLocality":"Blumenau",
+      "addressRegion":"SC",
+      "postalCode":"89053-000",
+      "addressCountry":"BR"
+    },
+    "foundingDate":"2020-03-13",
+    "taxID":"36.666.044/0001-00"
   }
   </script>
 
-  <script>
-    // Nota para publicação: substitua todos os valores com X e os campos <...> por dados reais.
-    // Atualize o atributo `action` do formulário para conectar a um endpoint real (e-mail, CRM ou automação).
-  </script>
+  <style>
+    :root{
+      --bg:#fffaf6;
+      --card:#fff;
+      --accent:#D9915A;
+      --accent-dark:#b76f46;
+      --muted:#6b6b6b;
+      --radius:12px;
+      font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+      color:#222;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:1100px;margin:24px auto;padding:18px}
+    header{display:flex;align-items:center;gap:16px;padding:18px;background:linear-gradient(90deg,var(--accent),var(--accent-dark));border-radius:12px;color:#fff}
+    .logo{width:72px;height:72px;border-radius:12px;background:#fff;color:var(--accent-dark);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px}
+    header h1{margin:0;font-size:20px}
+    header p{margin:0;font-size:13px;opacity:0.95}
+    nav{margin-left:auto}
+    nav a{color:#fff;text-decoration:none;margin-left:14px;font-weight:600;font-size:14px}
+    main{margin-top:22px}
+    .hero{display:grid;grid-template-columns:1fr 380px;gap:18px;align-items:center}
+    .card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 8px 28px rgba(20,20,20,0.06)}
+    h2{color:var(--accent);margin:0 0 10px}
+    p.lead{color:var(--muted);margin-top:8px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+    .product{padding:14px;border-radius:10px;background:#fff;border:1px dashed #f1e6de}
+    table{width:100%;border-collapse:collapse;margin-top:8px}
+    th,td{padding:8px;border-bottom:1px solid #f3f3f3;text-align:left;color:#444}
+    th{width:210px;font-weight:700;color:var(--muted)}
+    form{display:flex;flex-direction:column;gap:10px}
+    input,textarea{padding:10px;border:1px solid #eee;border-radius:8px;font-size:14px}
+    button{background:var(--accent);color:#fff;border:none;padding:10px;border-radius:8px;cursor:pointer;font-weight:700}
+    footer{margin-top:22px;padding:18px;text-align:center;color:var(--muted);font-size:14px}
+    a.link{color:var(--accent-dark);text-decoration:none}
+    @media(max-width:980px){.hero{grid-template-columns:1fr} .grid-3{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div style="display:flex;gap:14px;align-items:center">
+        <div class="logo">MA</div>
+        <div>
+          <h1>Mundo Arts</h1>
+          <p style="margin-top:6px">Materiais para Artesanato — Blumenau (SC)</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#dados">Dados</a>
+        <a href="#contato">Contato</a>
+        <a href="#politica">Política de Privacidade</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero card">
+        <div>
+          <h2>Seu ateliê começa aqui</h2>
+          <p class="lead">A <strong>Mundo Arts</strong> oferece uma ampla linha de materiais para artesanato — linhas, tecidos, tintas, bijuterias, ferramentas e acessórios — pensada para profissionais e entusiastas criativos. Qualidade, variedade e atendimento especializado.</p>
+
+          <div style="margin-top:16px">
+            <h3 style="margin:0 0 8px">Atendimento</h3>
+            <p class="lead" style="margin:0">Venda presencial em Blumenau e atendimento por WhatsApp para orçamentos e pedidos. Enviamos para todo o Brasil por transportadora parceira.</p>
+          </div>
+        </div>
+
+        <aside style="width:360px">
+          <img alt="Materiais para artesanato" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='360' height='220'><rect rx='12' width='100%' height='100%' fill='%23FFF1E6'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='%23D9915A' font-size='16' font-family='Arial'>Imagem institucional (substituir)</text></svg>" style="width:100%;border-radius:10px;display:block;box-shadow:0 8px 20px rgba(0,0,0,0.06)" />
+          <div style="margin-top:12px;padding:12px;border-radius:10px;background:#fff;border:1px solid #f5e9e0">
+            <div style="font-weight:700;color:var(--accent)">Contato rápido</div>
+            <div style="color:var(--muted);margin-top:6px">Telefone: (48) 991-XXXX</div>
+            <div style="color:var(--muted);margin-top:6px">Endereço: Rua Vinte e Cinco de Julho, 118, Térreo — Blumenau/SC</div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="produtos" class="card" style="margin-top:18px">
+        <h2>Produtos em destaque</h2>
+        <div class="grid-3">
+          <div class="product">
+            <h4 style="margin:0 0 6px">Tecidos e Retalhos</h4>
+            <p class="lead" style="margin:0">Linha variada para patchwork, costura e decoração.</p>
+          </div>
+          <div class="product">
+            <h4 style="margin:0 0 6px">Tintas e Pigmentos</h4>
+            <p class="lead" style="margin:0">Tintas acrílicas, PVA, corantes e vernizes.</p>
+          </div>
+          <div class="product">
+            <h4 style="margin:0 0 6px">Bijuterias e Ferragens</h4>
+            <p class="lead" style="margin:0">Acessórios para bijuteria, metais, fios e fechos.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="dados" class="card" style="margin-top:18px">
+        <h2>Informações Cadastrais</h2>
+        <table>
+          <tbody>
+            <tr><th>Razão Social</th><td>Mundo Arts Comércio de Materiais Para Artesanato LTDA</td></tr>
+            <tr><th>CNPJ</th><td>36.666.044/0001-00</td></tr>
+            <tr><th>Data de Abertura</th><td>13/03/2020</td></tr>
+            <tr><th>Porte</th><td>Empresa de Pequeno Porte</td></tr>
+            <tr><th>Natureza Jurídica</th><td>Sociedade Empresária Limitada</td></tr>
+            <tr><th>Capital Social</th><td>R$ 120.000,00</td></tr>
+            <tr><th>Situação</th><td>Ativa</td></tr>
+            <tr><th>Endereço</th><td>Rua Vinte e Cinco de Julho, 118 — Térreo, Itoupava Norte — Blumenau / SC — CEP: 89053-000</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contato" class="card" style="margin-top:18px">
+        <h2>Fale conosco</h2>
+        <p class="lead">Preencha o formulário abaixo e nossa equipe retornará em até 24 horas úteis. (Formulário ilustrativo — para contato direto, ligue ou envie WhatsApp).</p>
+
+        <form onsubmit="event.preventDefault(); alert('Formulário ilustrativo — envie mensagem para o WhatsApp');">
+          <input type="text" placeholder="Nome completo *" required>
+          <input type="email" placeholder="E-mail *" required>
+          <input type="tel" placeholder="Telefone / WhatsApp *" required>
+          <textarea rows="4" placeholder="Mensagem / Pedido *" required></textarea>
+          <button type="submit">Enviar mensagem</button>
+        </form>
+
+        <p style="margin-top:12px;color:var(--muted)"><strong>Telefone:</strong> (48) 991-XXXX • <strong>Horário:</strong> Seg–Sáb 9:00–18:00</p>
+      </section>
+
+      <section id="politica" class="card" style="margin-top:18px; background:#fffaf0">
+        <h2>Política de Privacidade</h2>
+        <p>A Mundo Arts respeita a privacidade de clientes e visitantes. Coletamos apenas dados necessários para atendimento e processamento de pedidos (nome, telefone, e-mail, endereço), fornecidos voluntariamente.</p>
+
+        <h3>1. Uso das informações</h3>
+        <p>As informações são utilizadas para responder solicitações, confirmar pedidos e viabilizar entregas. Não vendemos nem compartilhamos dados com terceiros para fins comerciais sem autorização prévia.</p>
+
+        <h3>2. Armazenamento e segurança</h3>
+        <p>Os dados são armazenados em ambiente seguro e acessíveis apenas por colaboradores autorizados. Adotamos medidas razoáveis para proteger as informações.</p>
+
+        <h3>3. Direitos do titular</h3>
+        <p>Você pode solicitar acesso, correção ou exclusão de seus dados pelo contato telefônico ou enviando e-mail para <strong>contato@mundoarts.com.br</strong>.</p>
+
+        <h3>4. Atualizações</h3>
+        <p>Esta política pode ser atualizada; a versão mais recente será sempre publicada nesta página.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div style="max-width:980px;margin:auto">
+        <div style="font-weight:700">Mundo Arts Comércio de Materiais Para Artesanato LTDA</div>
+        <div style="margin-top:6px;color:var(--muted)">CNPJ: 36.666.044/0001-00 • Rua Vinte e Cinco de Julho, 118 — Itoupava Norte — Blumenau / SC • CEP: 89053-000</div>
+        <div style="margin-top:8px;color:var(--muted)">Telefone: (48) 991-XXXX • E-mail: contato@mundoarts.com.br</div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
